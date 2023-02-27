@@ -1,0 +1,24 @@
+/* body {
+    background-color: red;
+} */
+
+#piros {
+    background-color: red;
+    width: 150px;
+    /* height: 300px; */
+}
+
+#kek {
+    background-color: blue;
+    width: 75%;
+}
+
+#felso_doboz {
+    background-color: lightgray;
+    width: 50%;
+}
+
+#magenta {
+    background-color: magenta;
+    width: 75vw;
+}

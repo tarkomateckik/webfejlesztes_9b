@@ -1,8 +1,34 @@
 /* CSS komment */
+
 body p {
     color: green;
 }
 
-span {
-color: purple;
+p span {
+    color: blue;
+}
+
+/* #g1, #g2, #g3 {
+    color: black;
+} */
+
+#modern {
+    color: cyan;
+}
+
+.golyo {
+    color: black;
+}
+
+body {
+    background-color: bisque;
+}
+
+p {
+    background-color: white;
+}
+
+/* kozvetlen leszarmazott (gyerek) */
+body>span {
+    background-color: greenyellow;
 }
