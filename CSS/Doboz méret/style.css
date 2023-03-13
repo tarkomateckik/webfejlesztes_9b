@@ -1,0 +1,22 @@
+/* body {
+    background-color: red;
+} */
+
+div {
+    background-color: lightblue;
+    height: 40px;
+    width: 50%;
+}
+
+#tartalom {
+    box-sizing: content-box;
+}
+
+#szegely {
+    border: 2px solid red;
+    padding: 20px;
+    /* width: 116px; */
+    /* width: calc(50% - 44px); */
+    width: 50%;
+    box-sizing: border-box;
+}

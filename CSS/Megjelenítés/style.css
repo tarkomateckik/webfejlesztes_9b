@@ -1,0 +1,56 @@
+/* 
+Block: p, h1-h6, div, body
+Inline: i, b, u, a, span
+Inline-block: img
+*/
+
+/* 
+Kepek kozepre igazitasa
+*/
+img {
+    width: 40%;
+    border: 2px dotted brown;
+    display: block;
+    margin: auto;
+}
+
+p {
+    background-color: yellow;
+    width: 20%;
+    margin: 10px auto;
+}
+
+div {
+    background-color: lightblue;
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+/* inline:
+1. Csak annyi helyet foglal amennyit muszaj --> width, height nem mukodik
+2. Egymas mellett jelenik meg
+*/
+.egysoros {
+    display: inline;
+}
+
+/* block:
+1. Alapbol teljes teret kitolti
+2. Egymas alatt jelenik meg
+*/
+.tobbsoros {
+    display: block;
+}
+
+/* inline-block:
+1. Állítható a mérete (width, height) --> block
+2. Egy sorba kerul (egymast koveto elemek) --> inline
+*/
+.vegyes {
+    display: inline-block;
+}
+
+#nincs {
+    display: none;
+}

@@ -13,12 +13,92 @@
     width: 75%;
 }
 
-#felso_doboz {
+.felso_doboz {
     background-color: lightgray;
     width: 50%;
 }
 
+/* vw: view width */
 #magenta {
     background-color: magenta;
     width: 75vw;
+}
+
+#zold {
+    background-color: green;
+    height: 100px;
+}
+
+/* vh: view height */
+#lila {
+    background-color: purple;
+    height: 10vh;
+}
+
+/* ~: adott elem kesobbi testverei */
+.felso_doboz ~ div {
+    height: 80px;
+    width: 70%;
+}
+
+#szegely {
+    background-color: lightcoral;
+    /* solid, dashed, dotted, double */
+    /* folytonos, szaggatott, pontozott, dupla */
+    /* border-style: solid;
+    border-width: 2px;
+    border-color: blue; */
+    border: 2px solid blue;
+}
+
+#vegyes {
+    background-color: aqua;
+    /* top, right, bottom, left */
+    /* fent, jobbra, lent, balra */
+    border-right: 3px dashed red;
+    border-bottom: 2px dotted green;
+    margin-bottom: 50px;
+}
+
+#kulso_margo {
+    background-color: palevioletred;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+#kulso_div {
+    background-color: red;
+}
+
+#belso_div {
+    background-color: lightblue;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+#kozepre {
+    background-color: yellow;
+    /* margin-left: 15%;
+    margin-right: 15%; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: auto;
+}
+
+#belso_margo {
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+#vegyes_belso {
+    background-color: aqua;
+    height: auto;
+    /* padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    padding-left: 80px; */
+    /* padding: felso jobb also bal */
+    /* padding: 20px 40px 60px 80px; */
+    /* padding: 20px 60px; */
+    padding: 20px 40px 80px;
 }

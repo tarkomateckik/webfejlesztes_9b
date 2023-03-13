@@ -1,0 +1,71 @@
+#labdarugas {
+    font-weight: bold;
+    font-style: italic;
+}
+
+h1 {
+    font-weight: normal;
+    text-align: center;
+    text-decoration: 1px underline green wavy;
+}
+
+p {
+    font-size: 8px;
+}
+
+#foci {
+    color: red;
+    /* font-size: 30px; */
+    /* %: szulohoz kepest */
+    /* font-size: 200%; */
+    /* em: aktualis betumerethez kepest */
+    font-size: 2em;
+
+    background-color: lightblue;
+    display: inline-block;
+    width: 40%;
+    /* width: 0.4em; */
+}
+
+html {
+    font-size: 20px;
+}
+
+#labda {
+    color: blue;
+    /* rem: root ephemeral unit */
+    /* root == html elem */
+    font-size: 2rem;
+}
+
+/* kiskapitalis */
+#usa {
+    font-variant: small-caps;
+}
+
+#ifa {
+    color: purple;
+    /* serif: talpas */
+    /* sans-serif: talpatlan */
+    /* cursive: kezirasos */
+    /* monospace: egyforma szelessegu betuk */
+    /* fantasy: kulonleges */
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Rubik Iso', cursive;
+}
+
+p{
+    margin: 40px 0px;
+}
+
+#masodik {
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+#labsport {
+    letter-spacing: 2px;
+}
+
+#fifa {
+}
