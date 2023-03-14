@@ -4,3 +4,24 @@ div{
     height: 50px;
     border: 1px solid black; 
 }
+
+#doboz1 {
+    background-color: rgb(200, 40, 0);
+    opacity: 40%;
+}
+
+#doboz2 {
+    background-color: rgb(220, 220, 220);
+}
+
+#doboz3 {
+    background-color: #02F512
+}
+
+#doboz4 {
+    background-color: rgba(196, 23, 17, 60%);
+}
+
+#doboz5 {
+    background-color: hsl(280, 80%, 40% ,40%)
+}
