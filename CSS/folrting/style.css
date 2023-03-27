@@ -1,0 +1,47 @@
+body {
+    width: 80%;
+    border: 1px solid black;
+    margin: auto;
+    padding: 5px;
+    text-align: justify;
+}
+
+h1 {
+    background-color: yellow;
+    clear: left;
+}
+
+.balra {
+    width: 150%;
+    height: 150px;
+    background-color: lightblue;
+    margin-right: 5px;
+    float: left;
+}
+
+.jobbra{
+    background-color: brown;
+    width: 75px;
+    height: 300px;
+    margin-left: 5px;
+    float: right;
+    color: white;
+}
+
+#also {
+    background-color: lightcoral;
+    overflow: auto;
+}
+
+#also_alatti {
+    background-color: lightgreen;
+    padding: 5px;
+    margin-top: 5px;
+    height: 300px;
+    overflow: auto;
+    white-space: normal;
+}
+
+
+
+
