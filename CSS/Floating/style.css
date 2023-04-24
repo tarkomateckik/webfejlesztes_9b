@@ -8,18 +8,18 @@ body {
 
 h1 {
     background-color: yellow;
-    clear: left;
+    clear: both;
 }
 
 .balra {
-    width: 150%;
+    width: 150px;
     height: 150px;
     background-color: lightblue;
     margin-right: 5px;
     float: left;
 }
 
-.jobbra{
+.jobbra {
     background-color: brown;
     width: 75px;
     height: 300px;
@@ -33,15 +33,19 @@ h1 {
     overflow: auto;
 }
 
+/* #clearfix {
+    clear: both;
+} */
+
 #also_alatti {
     background-color: lightgreen;
     padding: 5px;
     margin-top: 5px;
     height: 300px;
+    /* visible, hidden, scroll, auto */
+    /* overflow-y: scroll;
+    overflow-x: hidden; */
     overflow: auto;
-    white-space: normal;
+    /* normal, nowrap, pre, pre-wrap */
+    white-space: pre-wrap;
 }
-
-
-
-

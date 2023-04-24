@@ -1,0 +1,34 @@
+div {
+    background-color: aqua;
+    width: 40%;
+    height: 50px;
+    border: 1px solid black;
+}
+
+#doboz1 {
+    /* r, g, b => 0-tol 255-ig */
+    /* rgb(r, g, b) */
+    background-color: rgb(200, 40, 0);
+    opacity: 40%;
+    /* background-image: linear-gradient(rgb(200, 0, 0), rgb(255, 255, 255), rgb(0, 200, 0)); */
+}
+
+#doboz2 {
+    background-color: rgb(220, 220, 220);
+}
+
+#doboz3 {
+    background-color: #02F512;
+    background-color: rgb(2, 245, 18);
+}
+
+#doboz4 {
+    background-color: rgba(196, 23, 17, 60%);
+}
+
+#doboz5 {
+    /* h, s, l */
+    /* arnyalat, telitettseg, fenyero */
+    /* 0-360, %, % */
+    background-color: hsla(280, 80%, 40%, 40%);
+}

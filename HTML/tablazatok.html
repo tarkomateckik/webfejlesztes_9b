@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
-    
     <title>Táblázatok</title>
-   <style>
-    table, td {
-        border: 1px solid black;
-        ;
-    }
-   </style>
+    <style>
+        table, td, th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            margin: auto;
+        }
+
+        td, th {
+            padding: 10px;
+        }
+    </style>
 </head>
+
 <body>
     <h1>Táblázatok</h1>
+    <!-- table, tr - table row, td - table data -->
+    <!-- th - header = fejlec -->
     <table>
-        <caption>Ország, város játék táblázat</caption>
+        <caption>Ország, város játék táblázata</caption>
         <tr>
             <th>Ország</th>
             <th>Város</th>
@@ -55,84 +64,85 @@
             <th>Név</th>
         </tr>
         <tr>
-            <td rowspan="4">9.b</td>
+            <td rowspan="4">9b</td>
             <td>Kássa Máté</td>
         </tr>
         <tr>
-            
-            <td>Dudás-Vig zsolt</td>
+            <td>Dudás-Vig Zsolt</td>
         </tr>
         <tr>
-           
             <td>Lédeczi Zsófia</td>
         </tr>
         <tr>
-            
             <td>Szűcs Csaba</td>
         </tr>
         <tr>
-            <td rowspan="2">9.c</td>
+            <td rowspan="2">9c</td>
             <td>Tóth Kata</td>
         </tr>
         <tr>
-            
+            <!-- <td>9c</td> -->
             <td>Fülep Fanni</td>
         </tr>
     </table>
 
-  <hr>  
+    <hr>
+    <table>
+        <tr>
+            <th>Termék</th>
+            <th>Egységár</th>
+            <th>Mennyiség</th>
+            <th>Fizetendő</th>
+        </tr>
+        <tr>
+            <td>Sajt</td>
+            <td>1999</td>
+            <td>1</td>
+            <td>1999</td>
+        </tr>
+        <tr>
+            <td>Milka</td>
+            <td>749</td>
+            <td>3</td>
+            <td>2247</td>
+        </tr>
+        <tr>
+            <td>Alma</td>
+            <td>178</td>
+            <td>10</td>
+            <td>1780</td>
+        </tr>
+        <tr>
+            <td colspan="3">Összesen</td>
+            <!-- <td>Összesen</td>
+            <td>Összesen</td> -->
+            <td>6026</td>
+        </tr>
+    </table>
 
-<table>
-    <tr>
-<th>Terrmék</th>
-<th>Egységár</th>
-<th>Mennyiség</th>
-<th>Fizetendő</th>
-    </tr>
-<tr>
-    <td>Sajt</td>
-    <td>1999</td>
-    <td>1</td>
-    <td>1999</td>
-</tr>
-<tr>
-    <td>Milka</td>
-    <td></td>
-    <td></td>
-    <td></td>
-</tr>
-<tr>
-    <td>Alma</td>
-    <td></td>
-    <td></td>
-    <td></td>
-</tr>
-<tr>
-   <td>összes</td> 
-   <td></td>
-</tr>
-</table>
-
-<hr>
-
-<table>
-    <tr>
-        <td colspan="3">A</td>
-    </tr>
-    <tr>
-        <td>B</td>
-        <td>C</td>
-        <td>D</td>
-    </tr>
-    <tr>
-        <td colspan="2">E</td>
-        <td>F</td>
-    </tr>
-    <tr>
-        <td colspan="2">E</td>
-        <td>G</td>
-    </tr>
-</table>
-
+    <hr>
+    <table>
+        <tr>
+            <td colspan="3">A</td>
+            <!-- <td>A</td>
+            <td>A</td> -->
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>C</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2">E</td>
+            <!-- <td>E</td> -->
+            <td>F</td>
+        </tr>
+        <tr>
+            <!-- <td>E</td>
+            <td>E</td> -->
+            <td>G</td>
+        </tr>
+    </table>
 </body>
+
 </html>
