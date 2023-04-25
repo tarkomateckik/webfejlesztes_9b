@@ -1,0 +1,16 @@
+body {
+    width: 80%;
+    margin: auto;
+    border: 1px solid brown;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+.table {
+    width: 80%;
+}
+
+.img-fluid {
+    background-color: red !important;
+    border: 5px dashed black !important;
+}
